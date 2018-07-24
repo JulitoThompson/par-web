@@ -1,0 +1,1245 @@
+@font-face {
+    font-family: 'bryant_proregular';
+    src: url('../fonts/bryantpro-regular-webfont.woff2') format('woff2'), url('../fonts/bryantpro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bryant_probold';
+    src: url('bryantpro-bold-webfont.woff2') format('woff2'), url('bryantpro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bryant_prolight';
+    src: url('bryantpro-light-webfont.woff2') format('woff2'), url('bryantpro-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "bryant_proregular" !important;
+}
+
+.light {
+    /* font-family: "bryant_prolight" !important; */
+    font-style: italic;
+    width: 80%;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width: 600px) {
+    .oficina {
+        min-height: 470px;
+    }
+    .oficina2 {
+        min-height: 470px;
+    }
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.pub {
+    width: 100%;
+    height: 370px;
+}
+
+.pub>img {
+    width: 150px;
+}
+
+.pub2 {
+    height: 90%;
+    margin-top: 3.1%;
+}
+
+.pub3 {
+    height: 80%;
+    margin-top: 6.8%;
+}
+
+.pub4 {
+    height: 60%;
+    margin-top: 14.1%;
+}
+
+.pub5 {
+    height: 60%;
+    margin-top: 14.2%;
+}
+
+@media screen and (max-width: 600px) {
+    .ranking {
+        display: none;
+    }
+    .oficina-img {
+        display: none;
+    }
+    .publico {
+        display: none;
+    }
+    .privado {
+        display: none;
+    }
+    .anual {
+        display: none;
+    }
+    .ganadores {
+        display: none;
+    }
+    .pais {
+        display: none;
+    }
+    .conclusiones {
+        display: none;
+    }
+    .titulo1 {
+        display: none;
+    }
+    .contenido {
+        min-height: 670px;
+    }
+}
+
+
+/* change the brand and text color */
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+
+
+/* change the link color */
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+
+
+/* change the color of active or hovered links */
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: white;
+}
+
+.navbar-toggler {
+    border: 1px solid black !important;
+}
+
+.navbar-toggler-icon {
+    border: 1px solid black !important;
+}
+
+.liMenu {
+    text-align: center;
+}
+
+.contenido {
+    background-color: #5cbbaa;
+    color: white;
+    /* min-height: 470px; */
+}
+
+.contenido2 {
+    background-color: white !important;
+    color: black !important;
+}
+
+.contenido3 {
+    background-color: #932890;
+    color: white;
+}
+
+
+/* panel pagina blanca */
+
+.contenido2 .panel {
+    background-color: white !important;
+    color: black !important;
+}
+
+.contenido2 .panel-body {
+    background-color: white !important;
+    color: black !important;
+}
+
+.contenido2 .panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.contenido2 .panel-default>.panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: black !important;
+    background-color: #5cbbaa;
+}
+
+.contenido2 .panel-title {
+    color: white !important;
+}
+
+.contenido2 .panel-title>a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.contenido2 .more-less {
+    float: right;
+    color: white;
+}
+
+
+/* .contenido2 .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #5cbbaa;
+    color: black !important;
+} */
+
+.contenido2 .panel-heading:hover {
+    background-color: #932890 !important;
+    color: white !important;
+}
+
+.contenido2 .panel-title:hover {
+    background-color: #932890 !important;
+    color: white !important;
+}
+
+
+/* fin panel pagina blanca */
+
+
+/* panel pagina violeta */
+
+.contenido3 .panel-heading {
+    background-color: white !important;
+    color: #932890 !important;
+}
+
+.contenido3 .panel-body {
+    background-color: #932890 !important;
+    color: white !important;
+}
+
+.contenido3 .panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.contenido3 .panel-default>.panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #932890 !important;
+    background-color: white;
+}
+
+.contenido3 .panel-title {
+    color: #932890 !important;
+}
+
+.contenido3 .panel-title>a {
+    display: block;
+    padding: 15px;
+    color: #932890;
+    text-decoration: none;
+}
+
+.contenido3 .panel-title>a:hover {
+    color: white;
+}
+
+.contenido3 .more-less {
+    float: right;
+    color: white;
+}
+
+
+/* .contenido2 .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #5cbbaa;
+    color: black !important;
+} */
+
+.contenido3 .panel-heading:hover {
+    background-color: #7c1c7c !important;
+    color: white !important;
+}
+
+.contenido3 .panel-title:hover {
+    background-color: #7c1c7c !important;
+    color: white !important;
+}
+
+
+/* fin panel pagina violeta */
+
+#menu-custom {
+    background-color: #932890 !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+.container>p {
+    padding-top: 2%;
+    text-align: justify;
+}
+
+.titulo1 {
+    color: white;
+    padding: 10px;
+    padding-right: 0;
+    text-align: right !important;
+}
+
+.navbar-custom {
+    background-color: #932890 !important;
+    padding: 5px;
+    justify-content: center;
+}
+
+.oficina {
+    width: 100%;
+    margin-left: 10%;
+    padding: 1% 10% 5% 0;
+    align-content: center;
+}
+
+.oficina2 {
+    width: 100%;
+    margin-left: 12%;
+    padding: 1% 10% 5% 0;
+    align-content: center;
+}
+
+.oficina-img {
+    height: 90%;
+    width: 90%;
+    margin-left: 5%;
+    display: block;
+}
+
+.ranking {
+    position: absolute;
+    top: 42%;
+    left: 30%;
+    height: 90px;
+    width: 90px;
+    /* top: 5%;
+    left: 5%; */
+}
+
+.ranking a {
+    background-image: url(../Buttons/Boton_computador_1.png);
+    background-size: cover;
+    background-position: center;
+    padding: 2%;
+}
+
+.ranking a:hover {
+    background-image: url(../Buttons/Boton_computador_2.png)
+}
+
+.ganadores {
+    position: absolute;
+    top: 27%;
+    left: 42%;
+    height: 90px;
+    width: 90px;
+}
+
+.ganadores a {
+    background-image: url(../Buttons/Boton_ganadores_1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.ganadores a:hover {
+    background-image: url(../Buttons/Boton_ganadores_2.png)
+}
+
+.privado {
+    position: absolute;
+    top: 38%;
+    left: 60.1%;
+    height: 50px;
+    width: 106px;
+}
+
+.privado a {
+    background-image: url(../Buttons/Boton_sectorprivado_1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.privado a:hover {
+    background-image: url(../Buttons/Boton_sectorprivado_2.png)
+}
+
+.publico {
+    position: absolute;
+    top: 45.5%;
+    left: 60.1%;
+    height: 50px;
+    width: 106px;
+}
+
+.publico a {
+    background-image: url(../Buttons/Boton_sectorpublico_1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.publico a:hover {
+    background-image: url(../Buttons/Boton_sectorpublico_2.png)
+}
+
+.anual {
+    position: absolute;
+    top: 53%;
+    left: 60.1%;
+    height: 50px;
+    width: 106px;
+}
+
+.anual a {
+    background-image: url(../Buttons/Boton_2017_2018_1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.anual a:hover {
+    background-image: url(../Buttons/Boton_2017_2018_2.png)
+}
+
+.pais {
+    position: absolute;
+    top: 60.5%;
+    left: 60.1%;
+    height: 50px;
+    width: 106px;
+}
+
+.pais a {
+    background-image: url(../Buttons/Boton_peru_colombia_1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.pais a:hover {
+    background-image: url(../Buttons/Boton_peru_colombia_2.png)
+}
+
+.conclusiones {
+    position: absolute;
+    top: 68%;
+    left: 60.1%;
+    height: 50px;
+    width: 106px;
+}
+
+.conclusiones a {
+    background-image: url(../Buttons/Boton_conclusiones_1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.conclusiones a:hover {
+    background-image: url(../Buttons/Boton_conclusiones_2.png)
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 2;
+    bottom: 0;
+    color: #ffffff;
+}
+
+.redes {
+    position: fixed;
+    height: 32px;
+    width: 100%;
+    z-index: 3;
+    bottom: 50px;
+    margin-left: 5%;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.footer a {
+    background-size: cover;
+    background-position: center;
+}
+
+.info {
+    background-image: url(../Buttons/Boton_referencias.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 3px;
+    float: right;
+    width: 35px;
+    height: 35px;
+}
+
+.tw {
+    background-image: url(../Buttons/Boton_twitter.png);
+    background-size: cover;
+    background-position: center;
+    width: 35px;
+    height: 35px;
+    margin-left: 3px;
+    float: right;
+}
+
+.fb {
+    background-image: url(../Buttons/Boton_facebook.png);
+    background-size: cover;
+    background-position: center;
+    width: 35px;
+    height: 35px;
+    margin-left: 3px;
+    float: right;
+}
+
+.graf2-1 {
+    width: 100%;
+}
+
+.graf2-1>img {
+    width: 9%;
+    height: 70%;
+}
+
+.g21>img {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.graf2-2 {
+    width: 80%;
+    height: 80%;
+    padding: 3% 0 3% 0;
+}
+
+.graf2-3 {
+    background-image: url(../images/privado/Grafica_6/Grafica6_lineas.png);
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 294px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    margin: 3% 0 3% 0;
+}
+
+.graf2-3-1 {
+    margin-top: 17%;
+    height: 57.6%;
+    width: 10%;
+    margin-left: 8%;
+}
+
+.graf2-3-2 {
+    margin-top: 16.2%;
+    height: 60.5%;
+    width: 10%;
+    margin-left: 8%;
+}
+
+.graf2-3-3 {
+    margin-top: 8%;
+    height: 89%;
+    width: 10%;
+    margin-left: 8%;
+}
+
+.graf2-3-4 {
+    margin-top: 12%;
+    height: 74%;
+    width: 10%;
+    margin-left: 8%;
+}
+
+.graf2-4 {
+    background-image: url(../images/privado/Grafica_7/Grafica7_lineas.png);
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 294px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    margin: 3% 0 3% 0;
+}
+
+.graf2-4-1 {
+    margin-top: 9.9%;
+    height: 84%;
+    width: 15%;
+    margin-left: 5%;
+}
+
+.graf2-4-2 {
+    margin-top: 10.75%;
+    height: 80.5%;
+    width: 15%;
+    margin-left: 5%;
+}
+
+.graf2-4-3 {
+    margin-top: 6.25%;
+    height: 96%;
+    width: 15%;
+    margin-left: 5%;
+}
+
+.graf2-4-4 {
+    margin-top: 7.6%;
+    height: 91%;
+    width: 15%;
+    margin-left: 5%;
+}
+
+.graf2-12 {
+    background-image: url(../images/privado/Grafica_12/Grafica12_lineas.png);
+    background-size: contain;
+    background-position: center;
+    width: 90%;
+    height: 450px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.graf2-12-1 {
+    width: 100%;
+    height: 18%;
+    margin-top: 0.5%;
+    margin-left: 1%;
+}
+
+.graf2-14-1 {
+    width: 100%;
+    height: 8%;
+    margin-top: 0.5%;
+    margin-left: 1%;
+}
+
+.graf2-15-1 {
+    width: 100%;
+    height: 10%;
+    margin-top: 0.5%;
+    margin-left: 1%;
+}
+
+.text2-12>p {
+    padding-top: 10%;
+    margin: 6% 2% 6% 0;
+    text-align: left;
+    font-size: 10pt;
+}
+
+.graf2-14 {
+    background-image: url(../images/privado/Grafica_14/Grafica14_lineas.png);
+    background-size: contain;
+    background-position: center;
+    width: 90%;
+    height: 550px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.graf2-14>p>img {
+    width: 101%;
+    height: 15%;
+    margin-top: 2.5%;
+    margin-left: 1.3%;
+}
+
+.text-214>p {
+    text-align: left;
+    font-size: 10pt;
+    margin: 6% 1% 5% 1%;
+    padding-top: 6%;
+}
+
+.graf2-15 {
+    background-image: url(../images/privado/Grafica_15/Grafica15_lineas.png);
+    background-size: contain;
+    background-position: center;
+    width: 90%;
+    height: 1180px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.graf2-15>img {
+    width: 89.5%;
+    height: 5.6%;
+    margin-top: 4.8%;
+    margin-left: 6.5%;
+}
+
+.graf2-16 {
+    background-image: url(../images/privado/Grafica_16/Grafica16_lineas.png);
+    background-size: contain;
+    background-position: center;
+    width: 90%;
+    height: 290px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.g2-16 {
+    width: 20%;
+}
+
+.graf2-16-1 {
+    height: 92.4%;
+    margin-top: 7.5%;
+    margin-left: 4.5%;
+}
+
+.graf2-16-2 {
+    height: 92.8%;
+    margin-top: 9.3%;
+    margin-left: 4.5%;
+}
+
+.graf2-16-3 {
+    height: 62%;
+    margin-top: 19%;
+    margin-left: 4.5%;
+}
+
+.graf2-16-4 {
+    height: 55.6%;
+    margin-top: 25.5%;
+    margin-left: 4.5%;
+}
+
+.text-25 {
+    width: 90%;
+    margin-top: 11%;
+}
+
+.text-25>p {
+    text-align: left;
+    font-size: 11pt;
+}
+
+.graf2-25 {
+    background-image: url(../images/privado/Grafica_25/Grafica25_lineas.png);
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 380px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.graf2-28 {
+    background-image: url(../images/privado/Grafica_28/Grafica28_lineas.png);
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 1050px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.graf2-28>img {
+    width: 100%;
+    height: 7.5%;
+    margin-top: 4.5%;
+    margin-left: 1.6%;
+}
+
+.text-28>p {
+    padding-top: 6%;
+    margin: 6% 2% 6% 0;
+    text-align: left;
+    font-size: 10pt;
+}
+
+.graf3-1 {
+    background-image: url(../images/anual/Grafica1_lineas.png);
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 380px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.graf3-2 {
+    background-image: url(../images/anual/Grafica2_lineas.png);
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 380px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.graf3-3 {
+    background-image: url(../images/anual/Grafica3_lineas.png);
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.graf3-4 {
+    background-image: url(../images/anual/Grafica4_lineas.png);
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 1150px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.g3 {
+    width: 160px;
+    position: relative;
+}
+
+.g31 {
+    /* width: 160px; */
+    height: 200px;
+    /*  position: absolute; */
+    left: 50%;
+    bottom: -67.5%;
+}
+
+.g32 {
+    height: 205px;
+    left: 25%;
+    bottom: -66%;
+}
+
+.g33 {
+    height: 310px;
+    left: 0%;
+    bottom: -31.5%;
+}
+
+.g34 {
+    height: 272px;
+    left: -25%;
+    bottom: -44.5%
+}
+
+.g322 {
+    width: 120px;
+    position: relative;
+    height: 204px;
+    left: 25%;
+    bottom: -91%;
+}
+
+.g321 {
+    width: 120px;
+    position: relative;
+    height: 163px;
+    left: 50%;
+    bottom: -110.5%;
+}
+
+.g331 {
+    width: 155px;
+    position: relative;
+    height: 100px;
+    left: 31.5%;
+    padding: 5px 0px 5px 0px;
+}
+
+.g332 {
+    width: 152px;
+    position: relative;
+    height: 100px;
+    left: 31.5%;
+    padding: 5px 0px 5px 0px;
+}
+
+.g333 {
+    width: 120px;
+    position: relative;
+    height: 100px;
+    left: 31.5%;
+    padding: 5px 0px 5px 0px;
+}
+
+.g334 {
+    width: 80px;
+    position: relative;
+    height: 100px;
+    left: 31.5%;
+    bottom: -110.5%;
+    padding: 5px 0px 5px 0px;
+}
+
+.graf34 {
+    left: 24.8%;
+    height: 100px;
+    position: relative;
+    padding: 5px 0px 5px 0px;
+}
+
+.g341 {
+    width: 410px;
+}
+
+.g342 {
+    width: 355px;
+}
+
+.g343 {
+    width: 362px;
+}
+
+.g344 {
+    width: 270px;
+}
+
+.g345 {
+    width: 272px;
+}
+
+.g346 {
+    width: 170px;
+}
+
+.g347 {
+    width: 220px;
+}
+
+.g348 {
+    width: 190px;
+}
+
+.g349 {
+    width: 165px;
+}
+
+.g3410 {
+    width: 165px;
+}
+
+.g3411 {
+    width: 58px;
+}
+
+.graf4-3 {
+    background-image: url(../images/anual/Grafica3_lineas.png);
+    background-size: contain;
+    background-position: center;
+    width: 90%;
+    height: 400px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.graf4-3-1 {
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 80%;
+    height: 20%;
+}
+
+.graf4-3-2 {
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 80%;
+    height: 8%;
+}
+
+.graf5-2-1 {
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 70%;
+    height: 15%;
+}
+
+.graf4-4 {
+    background-image: url(../images/anual/Grafica4_lineas.png);
+    background-size: contain;
+    background-position: center;
+    width: 90%;
+    height: 700px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.graf4-4>img {
+    margin-top: 2%;
+    margin-left: 16.4%;
+    height: 22%;
+    float: left;
+    clear: both;
+}
+
+.g54 {
+    background-image: url(../images/pais/Grafica_4_lineas.png);
+    background-size: contain;
+    background-position: center;
+    width: 90%;
+    height: 700px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.g54>img {
+    height: 19%;
+    margin-left: 1%;
+    padding-top: 4%;
+    float: left;
+    clear: both;
+}
+
+.text-54 {
+    width: 90%;
+    padding-top: 20%;
+}
+
+.text-54>p {
+    text-align: left;
+}
+
+.g56 {
+    background-image: url(../images/pais/Grafica8_lineas.png);
+    background-size: contain;
+    background-position: center;
+    width: 90%;
+    height: 300px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.g56>img {
+    width: 31%;
+    margin-top: 0.8%
+}
+
+.techo1 {
+    width: 100%;
+    height: 95%;
+}
+
+.nombres {
+    width: 35%;
+    height: 35%;
+    margin: 5%;
+}
+
+.contenido .panel-heading {
+    background-color: white !important;
+    color: #5cbbaa;
+}
+
+.contenido .panel-body {
+    background-color: #5cbbaa !important;
+    color: white;
+    border-top: none;
+}
+
+.contenido .panel-group {
+    border-top: none;
+}
+
+.contenido .panel-title {
+    border: none;
+}
+
+.contenido .panel-title a {
+    border-top: none;
+    display: block;
+    padding: 15px;
+    color: #5cbbaa;
+    text-decoration: none;
+    border: none;
+}
+
+.contenido .panel-title>a:hover {
+    color: white;
+    border: none;
+}
+
+.graf2-8-1 {
+    background-image: url(../images/privado/Grafica_8_1-8_2/Graficas8_1_lineas.png);
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 350px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.graf2-8-1>img {
+    width: 30%;
+    height: 65%;
+    margin-left: 15%;
+    margin-top: 23%;
+}
+
+.graf2-8-1-nom {
+    width: 45%;
+    height: 25%;
+    position: relative;
+    margin-top: 70%;
+}
+
+.contenido .more-less {
+    float: right;
+    color: white;
+    border: none;
+}
+
+.contenido .panel-title:hover {
+    background-color: #40a390 !important;
+    color: white !important;
+    border: none;
+}
+
+.graf2-8-2 {
+    width: 20%;
+    height: 20%;
+}
+
+.graf2-8-2-1 {
+    width: 100%;
+    height: 78%;
+}
+
+.graf2-8-2-2 {
+    width: 70%;
+    height: 55%;
+    margin-left: 16%;
+    margin-top: 12%;
+}
+
+.graf2-8-2-3 {
+    width: 55%;
+    height: 40%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.referencias {
+    background: no-repeat;
+    height: 560px;
+    width: 1060px;
+    margin-left: -60%;
+}
+
+.referencias>img {
+    width: 80%;
+    height: 80%;
+}
+
+.graf4-8-2-1 {
+    width: 100%;
+    height: 75%;
+}
+
+.graf4-8-2-2 {
+    width: 68%;
+    height: 55%;
+    margin: 12% 0 0 18%
+}
+
+.graf4-8-2-3 {
+    width: 53%;
+    height: 40%;
+    margin: 10% 0 0 18%
+}
+
+
+/*! Generated by Font Squirrel (https://www.fontsquirrel.com) on July 23, 2018 */

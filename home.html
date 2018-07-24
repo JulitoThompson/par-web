@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<title></title>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container-fluid" style="background-color: black; height: 5% ;">
+        <div class="container">
+            <div class="blog-header py-3" style="height: 100px">
+                <div class="row">
+                    <div class="col-lg-3" id="logo">
+                        <a href="home.html"><img src="Logo_PAR.png" alt="inicio" style="height: 90%; max-height: 80px;"></a>
+                    </div>
+                    <div class="col-lg-9 titulo1">
+                        PAR: RANKING DE EQUIDAD DE GÉNERO EN LAS ORGANIZACIONES<br> INFORME DE RESULTADOS PARA COLOMBIA 2018
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class=" navbar navbar-expand-md navbar-custom align-items-center">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navegacionPAR" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>           
+                        </button>
+        <div class="navbar-custom collapse navbar-collapse " id="navegacionPAR">
+
+            <ul class=" container navbar-nav mr-auto justify-content-between ">
+                <li class="nav-item active">
+                    <a class="nav-link liMenu" href="ranking.html">RANKING PAR<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link liMenu" href="privado.html">RESULTADOS <br> SECTOR PRIVADO</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link liMenu" href="publico.html">RESULTADOS <br> SECTOR PUBLICO</a>
+                </li>
+                <li class="nav-item liMenu">
+                    <a class="nav-link" href="anual.html">COMPARATIVOS <br> 2017-2018</a>
+                </li>
+                <li class="nav-item liMenu">
+                    <a class="nav-link" href="pais.html">COMPARATIVOS <br> PERU-COLOMBIA</a>
+                </li>
+                <li class="nav-item liMenu">
+                    <a class="nav-link" href="conclusiones.html">CONCLUSIONES</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+
+
+    <!-- inicio container contenido -->
+    <div class="container-fluid contenido ">
+        <div class="container oficina justify-content-center">
+            <!-- espacio para contenido -->
+            <div class="row justify-content-center ">
+                <div class="col-lg-1 "></div>
+
+                <div class="col-lg-10 col-sm-12 ">
+                    <img src="images/Oficina.png " alt=" " class="oficina-img ">
+                </div>
+
+                <!-- <div class="col-lg-1 "></div> -->
+            </div>
+
+            <div class="ranking ">
+                <a class="ranking " href="ranking.html "><span></span></a>
+            </div>
+
+            <div class="ganadores ">
+                <a type="button " class="btn  ganadores" data-toggle="modal" data-target="#ganadoresModal">
+                </a>
+            </div>
+            <div class="privado ">
+                <a href="privado.html " class="privado "><span ></span></a>
+            </div>
+            <div class="publico ">
+                <a href="publico.html " class="publico "><span ></span></a>
+            </div>
+            <div class="anual ">
+                <a href="anual.html " class="anual "><span ></span></a>
+            </div>
+            <div class="pais ">
+                <a href="pais.html " class="pais "><span ></span></a>
+            </div>
+            <div class="conclusiones ">
+                <a href="conclusiones.html " class="conclusiones "><span ></span></a>
+            </div>
+        </div>
+
+    </div>
+    <!-- fin container contenido -->
+    <!-- inicio botones redes -->
+    <div class="redes ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-sm-10 ">
+                </div>
+                <div class="col-sm-2 ">
+                    <div class="row ">
+                        <div class=" info">
+                            <a type="button" class="btn info" data-toggle="modal" data-target="#info">
+                            </a>
+
+
+                        </div>
+
+
+                        <div class="fb ">
+                            <a href="https://www.facebook.com/aequales/ " class="fb " target="_blank "><span  style="float: left "></span></a></div>
+
+                        <div class=" tw pull-right ">
+                            <a href="https://twitter.com/aequalesla " class="tw " target="_blank "><span ></span></a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- fin botones redes -->
+    <div class="modal fade" id="info" tabindex="-1" role="dialog" aria-labelledby="info" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content " style="height: 670px; width: 870px; margin-left: -25%">
+
+                <img style="height: 100%;width: 90%" src="images/info.png" alt="">
+
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="ganadoresModal" tabindex="-1" role="dialog" aria-labelledby="info" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content referencias">
+
+                <img style="height: 100%;width: 90%" src="images/ganadores.png" alt="">
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- inicio footer -->
+
+    <div class="footer ">
+        <div class="container " style="padding: 10px "> AEQUALES S.A.S Todos los derechos reservados 2018 </div>
+
+
+    </div>
+    <!-- fin footer -->
+
+
+
+
+
+
+
+
+</body>
