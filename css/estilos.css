@@ -59,52 +59,87 @@ body {
 }
 
 .innovacionMod {
-    background: contain no-repeat;
-    height: 450px !important;
+    /* background: no-repeat; */
+    max-height: 550px !important;
     width: 1060px;
     margin-left: -60%;
+}
+
+.innovacionMod>img {
+    width: 100%;
+    height: 90%;
 }
 
 .rentabilidadMod {
-    background: contain no-repeat;
-    height: 450px !important;
+    background: no-repeat;
+    max-height: 550px !important;
     width: 1060px;
     margin-left: -60%;
+}
+
+.rentabilidadMod>img {
+    width: 100%;
+    height: 90%;
 }
 
 .ambicionMod {
-    background: contain no-repeat;
-    height: 450px !important;
+    background: no-repeat;
+    max-height: 450px !important;
     width: 1060px;
     margin-left: -60%;
+}
+
+.ambicionMod>img {
+    width: 100%;
+    height: 90%;
 }
 
 .estructuraMod {
-    background: contain no-repeat;
-    height: 450px !important;
+    background: no-repeat;
+    max-height: 450px !important;
     width: 1060px;
     margin-left: -60%;
+}
+
+.estructuraMod>img {
+    width: 100%;
+    height: 90%;
 }
 
 .culturaMod {
-    background: contain no-repeat;
-    height: 450px !important;
+    background: no-repeat;
+    max-height: 450px !important;
     width: 1060px;
     margin-left: -60%;
+}
+
+.culturaMod>img {
+    width: 100%;
+    height: 90%;
 }
 
 .gestionMod {
-    background: contain no-repeat;
-    height: 450px !important;
+    background: no-repeat;
+    max-height: 450px !important;
     width: 1060px;
     margin-left: -60%;
 }
 
+.gestionMod>img {
+    width: 100%;
+    height: 90%;
+}
+
 .talentoMod {
-    background: contain no-repeat;
-    height: 450px !important;
+    background: no-repeat;
+    max-height: 450px !important;
     width: 1060px;
     margin-left: -60%;
+}
+
+.talentoMod>img {
+    width: 100%;
+    height: 90%;
 }
 
 .pub {
@@ -1279,8 +1314,8 @@ body {
 }
 
 .referencias>img {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
 }
 
 .graf4-8-2-1 {
