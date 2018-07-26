@@ -231,30 +231,48 @@ body {
 .pub {
     width: 100%;
     height: 370px;
+    margin: 0;
 }
 
-.pub>img {
-    width: 150px;
+.pub1 {
+    background-image: url(../images/publico/1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+    background-position-x: center;
 }
 
 .pub2 {
-    height: 90%;
-    margin-top: 3.1%;
+    background-image: url(../images/publico/2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+    background-position-x: center;
+    /* margin-top: 3.1%; */
 }
 
 .pub3 {
-    height: 80%;
-    margin-top: 6.8%;
+    background-image: url(../images/publico/3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+    background-position-x: center;
 }
 
 .pub4 {
-    height: 60%;
-    margin-top: 14.1%;
+    background-image: url(../images/publico/4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+    background-position-x: center;
 }
 
 .pub5 {
-    height: 60%;
-    margin-top: 14.2%;
+    background-image: url(../images/publico/5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+    background-position-x: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -1427,6 +1445,18 @@ body {
 }
 
 .referencias>img {
+    width: 100%;
+    height: 100%;
+}
+
+.ganaMod {
+    background: no-repeat;
+    height: 560px;
+    width: 1060px;
+    margin-left: -60%;
+}
+
+.ganaMod>img {
     width: 100%;
     height: 100%;
 }
