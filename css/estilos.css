@@ -1422,8 +1422,8 @@ body {
 .referencias {
     background: no-repeat;
     height: 560px;
-    width: 1060px;
-    margin-left: -60%;
+    width: 760px;
+    margin-left: -30%;
 }
 
 .referencias>img {
