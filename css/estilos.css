@@ -58,6 +58,92 @@ body {
     padding: 2%;
 }
 
+.icono1 {
+    background-image: url(../images/ranking/Icon_01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    padding: 2%;
+}
+
+.icono1:hover {
+    background-image: url(../images/ranking/Icon_01_morado.png)
+}
+
+.icono2 {
+    background-image: url(../images/ranking/Icon_02.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    padding: 2%;
+}
+
+.icono2:hover {
+    background-image: url(../images/ranking/Icon_02_morado.png)
+}
+
+.icono3 {
+    background-image: url(../images/ranking/Icon_03.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    padding: 2%;
+    height: 150px;
+}
+
+.icono3:hover {
+    background-image: url(../images/ranking/Icon_03_morado.png)
+}
+
+.icono4 {
+    background-image: url(../images/ranking/Icon_04.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    padding: 2%;
+}
+
+.icono4:hover {
+    background-image: url(../images/ranking/Icon_04_morado.png)
+}
+
+.icono5 {
+    background-image: url(../images/ranking/Icon_05.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    padding: 2%;
+}
+
+.icono5:hover {
+    background-image: url(../images/ranking/Icon_05_morado.png)
+}
+
+.icono6 {
+    background-image: url(../images/ranking/Icon_06.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    padding: 2%;
+}
+
+.icono6:hover {
+    background-image: url(../images/ranking/Icon_06_morado.png)
+}
+
+.icono7 {
+    background-image: url(../images/ranking/Icon_07.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    padding: 2%;
+    height: 150px;
+}
+
+.icono7:hover {
+    background-image: url(../images/ranking/Icon_07_morado.png)
+}
+
 .innovacionMod {
     /* background: no-repeat; */
     max-height: 550px !important;
@@ -873,7 +959,34 @@ body {
     background-repeat: no-repeat;
     align-content: space-between;
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.graf2-26 {
+    background-image: url(../images/privado/Grafica_26/Grafica26_lineas.png);
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 380px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.graf2-25>img {
+    width: 17.7%;
+    margin-left: 12%;
+    margin-top: 2%;
+}
+
+.graf2-26>img {
+    width: 16.2%;
+    height: 90%;
+    margin-left: 13%;
+    margin-top: 3.5%;
 }
 
 .graf2-28 {
@@ -1201,6 +1314,7 @@ body {
 .techo1 {
     width: 100%;
     height: 95%;
+    margin-top: 5%
 }
 
 .nombres {
@@ -1247,7 +1361,7 @@ body {
     background-size: contain;
     background-position: center;
     width: 100%;
-    height: 350px;
+    height: 300px;
     padding: 10px;
     margin-left: 3px;
     background-repeat: no-repeat;
@@ -1257,15 +1371,14 @@ body {
 }
 
 .graf2-8-1>img {
-    width: 30%;
-    height: 65%;
-    margin-left: 15%;
-    margin-top: 23%;
+    width: 25%;
+    height: 118%;
+    margin-left: 20%;
 }
 
 .graf2-8-1-nom {
     width: 45%;
-    height: 25%;
+    height: 18%;
     position: relative;
     margin-top: 70%;
 }
@@ -1319,20 +1432,36 @@ body {
 }
 
 .graf4-8-2-1 {
-    width: 100%;
-    height: 75%;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    /* height: 75%; */
 }
 
 .graf4-8-2-2 {
-    width: 68%;
-    height: 55%;
-    margin: 12% 0 0 18%
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
 }
 
 .graf4-8-2-3 {
-    width: 53%;
-    height: 40%;
-    margin: 10% 0 0 18%
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.flechaIzq {
+    height: 300px;
+    position: absolute;
+    left: 382px;
+    margin-top: 200px;
+}
+
+.flechaDer {
+    height: 275px;
+    position: absolute;
+    left: 954px;
+    margin-top: 380px;
 }
 
 
