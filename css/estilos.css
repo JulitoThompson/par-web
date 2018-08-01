@@ -52,95 +52,129 @@ body {
     color: white !important;
 }
 
-.ranMod-img {
-    width: 60%;
-    margin-left: 20%;
-    padding: 2%;
+.icono1 {
+    height: 200px;
+    width: 200px;
 }
 
-.icono1 {
+.icono1 a {
     background-image: url(../images/ranking/Icon_01.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     background-position-x: center;
     padding: 2%;
+    margin: 0 0 2% 17%;
 }
 
-.icono1:hover {
-    background-image: url(../images/ranking/Icon_01_morado.png)
+.icono1 a:hover {
+    background-image: url(../images/ranking/Icon_01_morado.png);
 }
 
 .icono2 {
+    height: 200px;
+    width: 200px;
+}
+
+.icono2 a {
     background-image: url(../images/ranking/Icon_02.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: center;
     padding: 2%;
+    margin: 0 0 2% 17%;
 }
 
-.icono2:hover {
+.icono2 a:hover {
     background-image: url(../images/ranking/Icon_02_morado.png)
 }
 
 .icono3 {
+    height: 200px;
+    width: 200px;
+}
+
+.icono3 a {
     background-image: url(../images/ranking/Icon_03.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: center;
     padding: 2%;
-    height: 150px;
+    margin: 0 0 2% 17%;
 }
 
-.icono3:hover {
+.icono3 a:hover {
     background-image: url(../images/ranking/Icon_03_morado.png)
 }
 
 .icono4 {
+    height: 200px;
+    width: 200px;
+}
+
+.icono4 a {
     background-image: url(../images/ranking/Icon_04.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: center;
     padding: 2%;
+    margin: 0 0 5% 5%;
 }
 
-.icono4:hover {
+.icono4 a:hover {
     background-image: url(../images/ranking/Icon_04_morado.png)
 }
 
 .icono5 {
+    height: 200px;
+    width: 200px;
+}
+
+.icono5 a {
     background-image: url(../images/ranking/Icon_05.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: center;
     padding: 2%;
+    margin: 0 0 5% 5%;
 }
 
-.icono5:hover {
+.icono5 a:hover {
     background-image: url(../images/ranking/Icon_05_morado.png)
 }
 
 .icono6 {
+    height: 200px;
+    width: 200px;
+}
+
+.icono6 a {
     background-image: url(../images/ranking/Icon_06.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: center;
     padding: 2%;
+    margin: 0 0 5% 5%;
 }
 
-.icono6:hover {
+.icono6 a:hover {
     background-image: url(../images/ranking/Icon_06_morado.png)
 }
 
 .icono7 {
+    height: 200px;
+    width: 200px;
+}
+
+.icono7 a {
     background-image: url(../images/ranking/Icon_07.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: center;
     padding: 2%;
-    height: 150px;
+    margin: 0 0 5% 5%;
 }
 
-.icono7:hover {
+.icono7 a:hover {
     background-image: url(../images/ranking/Icon_07_morado.png)
 }
 
@@ -1378,8 +1412,8 @@ body {
     background-image: url(../images/privado/Grafica_8_1-8_2/Graficas8_1_lineas.png);
     background-size: contain;
     background-position: center;
-    width: 100%;
-    height: 300px;
+    width: 90%;
+    height: 225px;
     padding: 10px;
     margin-left: 3px;
     background-repeat: no-repeat;
@@ -1389,14 +1423,13 @@ body {
 }
 
 .graf2-8-1>img {
-    width: 25%;
-    height: 118%;
-    margin-left: 20%;
+    width: 15%;
+    margin-left: 10%;
 }
 
 .graf2-8-1-nom {
-    width: 45%;
-    height: 18%;
+    /* width: 45%; */
+    height: 25%;
     position: relative;
     margin-top: 70%;
 }
