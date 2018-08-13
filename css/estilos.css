@@ -815,6 +815,58 @@ body {
     margin-left: 8%;
 }
 
+.graf3-2-pub {
+    background-image: url(../images/publico/grafica_2/fondo.png);
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 294px;
+    padding: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    align-content: space-between;
+    position: relative;
+    margin: 3% 0 3% 0;
+}
+
+.graf3-2-1 {
+    margin-top: 19%;
+    height: 52%;
+    width: 12%;
+    margin-left: 7%;
+}
+
+.graf3-2-2 {
+    margin-top: 18.8%;
+    height: 52.5%;
+    width: 12%;
+    margin-left: 7%;
+}
+
+.graf3-2-3 {
+    margin-top: 10.3%;
+    height: 83%;
+    width: 12%;
+    margin-left: 7%;
+}
+
+.graf3-2-4 {
+    margin-top: 12.8%;
+    height: 73.2%;
+    width: 12%;
+    margin-left: 7%;
+}
+
+.grafPub-3 {
+    width: 90%;
+    margin: 2% 5% 2% 5%;
+}
+
+.grafPub-7 {
+    width: 50%;
+    margin: 2% 25% 2% 25%;
+}
+
 .graf2-4 {
     background-image: url(../images/privado/Grafica_7/Grafica7_lineas.png);
     background-size: contain;
